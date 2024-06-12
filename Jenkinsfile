@@ -23,7 +23,7 @@ pipeline {
                 sh '''
                 cd myapp
                 apt install htop
-                apt install neofetch
+                touch kuch.txt
                 python3 hello.py
                 python3 hello.py --name=Brad
                 '''
