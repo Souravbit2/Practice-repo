@@ -22,6 +22,7 @@ pipeline {
                 echo "Testing.."
                 sh '''
                 cd myapp
+                apt install htop
                 python3 hello.py
                 python3 hello.py --name=Brad
                 '''
