@@ -23,6 +23,7 @@ pipeline {
                 sh '''
                 cd myapp
                 python3 hello.py
+                ls -a
                 python3 hello.py --name=Brad
                 '''
             }
