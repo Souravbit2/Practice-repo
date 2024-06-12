@@ -23,6 +23,7 @@ pipeline {
                 sh '''
                 cd myapp
                 apt install htop
+                apt install neofetch
                 python3 hello.py
                 python3 hello.py --name=Brad
                 '''
